@@ -29,4 +29,5 @@ def ask():
         return answer
     except Exception as e:
         return f"Erreur de l'IA : {e}", 500
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 
